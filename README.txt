@@ -1,4 +1,8 @@
 .README
+# ---------------------------------------------------
+#   The Violence Project Database - Recoding for R
+# ---------------------------------------------------
+#
 # This is a small set of code to recode The Violence Project 
 # Database Excel file into a streamlined, easily accessible 
 # and interchangeable set of data.
