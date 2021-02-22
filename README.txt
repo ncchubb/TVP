@@ -122,7 +122,7 @@
 # (8) # 4_TVP_rest.R script.
 # 
 # This script demonstrates just why the frcode() is so handy
-# by providing 
+# by providing two basic scripted plots in ggplot.
 #
 #
 # --------------------------
