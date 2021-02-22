@@ -2,8 +2,11 @@
 ## The Violence Project: R Translation (case_when)
 
 library(dplyr)
+library(lubridate)
 
 tvp <- read.csv("C:/Data/The Violence Project/TVP_copy.csv")
+
+view(tvp)
 
 tvp2 <- tvp %>% 
   mutate(state_txt = case_when(State == 1 ~ "Alabama",
@@ -561,6 +564,10 @@ tvp2 <- tvp %>%
                                        Interest.in.Firearms == 1 ~ "Interest in Firearms",
                                        TRUE ~ "NA"
                                        )) %>% 
+  mutate(firearms_total_txt = case_when(Total.Firearms.Brought.to.the.Scene == 0 ~ "No Interest in Firearms",
+                                    Total.Firearms.Brought.to.the.Scene == 1 ~ "Interest in Firearms",
+                                    TRUE ~ "NA" 
+                                    )) %>% 
   mutate(firearms_proficiency_txt = case_when(Firearm.Proficiency == 0 ~ "No Firearm Experience",
                                           Firearm.Proficiency == 1 ~ "Some Experience",
                                           Firearm.Proficiency == 2 ~ "More Expierenced (held a license, took classes)",
@@ -594,7 +601,7 @@ tvp2 <- tvp %>%
                                   Criminal.Sentence == 4 ~ "Hospitalization",
                                   Criminal.Sentence == 5 ~ "Juvenile Detention",
                                   TRUE ~ "NA"
-                                  )) %>%  
+                                  )) %>% 
   mutate(date_col = make_datetime(Year, Month, Day))
 
 ## FIX: 

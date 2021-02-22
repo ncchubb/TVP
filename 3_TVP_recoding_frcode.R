@@ -466,6 +466,9 @@ tvp4 <- tvp3 %>%
   mutate(firearms_interest = frcode(firearms_interest == 0 ~ "No Interest in Firearms",
                                        firearms_interest == 1 ~ "Interest in Firearms"
                                        )) %>% 
+  mutate(firearms_total = frcode(firearms_total == 0 ~ "No Interest in Firearms",
+                                 firearms_total == 1 ~ "Interest in Firearms"
+                                 )) %>% 
   mutate(firearms_proficiency = frcode(firearms_proficiency == 0 ~ "No Firearm Experience",
                                           firearms_proficiency == 1 ~ "Some Experience",
                                           firearms_proficiency == 2 ~ "More Expierenced (held a license, took classes)",
@@ -493,7 +496,7 @@ tvp4 <- tvp3 %>%
                                   sentence == 3 ~ "Life Imprisonment w/possibility of Parole",
                                   sentence == 4 ~ "Hospitalization",
                                   sentence == 5 ~ "Juvenile Detention"
-                                  ))
+                                  )) %>% 
 
 view(tvp3)
 

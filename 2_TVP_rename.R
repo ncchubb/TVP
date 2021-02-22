@@ -118,7 +118,7 @@ tvp3 <- tvp2 %>%
          performance = Performance,
          firearms_interest = Interest.in.Firearms,
          firearms_proficiency = Firearm.Proficiency,
-         firearm_total = Total.Firearms.Brought.to.the.Scene,
+         firearms_total = Total.Firearms.Brought.to.the.Scene,
          other_weapons = Other.Weapons.or.Gear,
          weapons_s = Specify.Other.Weapons.or.Gear,
          scene_outcome = On.Scene.Outcome,
