@@ -22,6 +22,3 @@ tvp4 %>%
   geom_col(fill = "darkgreen")+
   coord_flip()+
   geom_smooth()
-
-# 
-
