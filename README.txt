@@ -7,6 +7,10 @@
 # Database Excel file into a streamlined, easily accessible 
 # and interchangeable set of data.
 #
+# The reformatting was done in the style of the Global 
+# Terrorism Database, which contains _txt variables for
+# each of their numerically defined categories.
+#
 # (1) #
 #
 # First, take the "TVP-Mass-Shooter-Batabse-Version-2.xlsx" 
