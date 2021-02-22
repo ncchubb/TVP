@@ -11,7 +11,7 @@ tvp3 %>%
   coord_flip()+
   geom_smooth()
 
-## The Text doesn't return without the frcode() applied. Try this:
+## The variable text doesn't return without the frcode() applied. Try this:
 
 tvp4 %>% 
   ggplot(.,aes(x = counseling_type,
