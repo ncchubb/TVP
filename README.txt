@@ -96,7 +96,6 @@
 # See the .readme here: https://ryanburge.github.io/socsci/index.html
 # for details.
 #
-# It is useful to "recode and keep all the factor variables."
 #
 # Install the needed packages.
 #
@@ -104,14 +103,25 @@
 # Make sure that both scripts were run successfully on the 
 # .csv.
 #
+# It is useful to "recode and keep all the factor variables."
+# You only need to apply this script on the tvp3 dataframe 
+# once to wrap each factor level/categorical variable with
+# its corresponding output.
+# 
+# Let's check what that did:
+# 
 #
 # (8) # 4_TVP_rest.R script.
 # 
-# This script demonstrates just why the frcode() is so handy.
+# This script demonstrates just why the frcode() is so handy
+# by providing 
 #
 #
-# -------------------------
+# --------------------------
 # ncchubb@eiu.edu
 # Noah Chubb / Noelle Chubb
 # @NoelleNope
 # --------------------------
+#
+#
+#
