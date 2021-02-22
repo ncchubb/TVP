@@ -7,6 +7,9 @@
 # Database Excel file into a streamlined, easily accessible 
 # and interchangeable set of data.
 #
+# These scripts are intended to be run as standalone
+# in R/RStudio. 
+#
 # The reformatting was done in the style of the Global 
 # Terrorism Database, which contains _txt variables for
 # each of their numerically defined categories.
@@ -81,8 +84,10 @@
 # in further analysis in R as the titles have both regular and regular_txt
 # variables.
 #
-# The rename is useful because it takes variables with inconsistant 
-# naming and renames them so they are more easily accessible. 
+# The rename script is useful because it takes variables with inconsistant 
+# variable naming and renames them so they are more easily accessible and
+# homogenous in the dataset. 
+#
 # For instance:
 #
 # $Interest.in.Firearms
