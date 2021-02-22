@@ -18,12 +18,12 @@
 #
 # First, take the "TVP-Mass-Shooter-Batabse-Version-2.xlsx" 
 # and copy the second line. Past it in the first line.
-# Delete the first line. All of the information 
+# Now delete the second line. All of the information 
 # on the first line is descriptive of categories that are 
 # already described efficiently in the Codebook. This is 
 # helpful for doing swifter data analysis by eliminating an 
 # extra header when we read it into R or other data analysis
-# tool other than Excel.
+# tool.
 #
 # I also renamed the 'Case #' variable to 'case_num'. This
 # parses easier in UTF-8 and would be difficult to work with
