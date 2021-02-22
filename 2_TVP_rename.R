@@ -126,7 +126,7 @@ tvp3 <- tvp2 %>%
          insanity = Insanity.Defense,
          sentence = Criminal.Sentence)
 
-view(tvp2)
+view(tvp3)
    
          
          
